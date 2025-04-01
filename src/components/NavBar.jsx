@@ -1,0 +1,12 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+import '../assets/style.css'
+export default function NavBar() {
+  return (
+    <nav className='navbar'>
+     <Link to={'/home'} className='nav-link'>Home</Link>
+     <Link to={'/about'} className='nav-link'>About</Link>
+     <Link to={'/contact'} className='nav-link'>Contact</Link>
+    </nav>
+  )
+}
